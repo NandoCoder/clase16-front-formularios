@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>SUPER FORMULARIO</title>
+</head>
+
+<body>
+    <header>
+        <div class="info-banner">
+            <p>
+                20% de descuento en todos los productos!
+            </p>
+        </div>
+        <div class="logo-banner">
+            <img class="logo" src="/img/logotienda.png" alt="logo de tienda">
+            <h2>Super Tienda</h2>
+        </div>
+        <div class="nav-banner">
+            <div></div>
+            <div>
+                <nav>
+                    <ul>
+                        <li><a href="#">Contacto</a></li>
+                        <li><a href="#">Registrarme</a></li>
+                        <li><a href="#">Ingresar</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="section-display">
+            <div class="section-title">
+                <h1>
+                    Añadí tu super!
+                </h1>
+                <p>
+                    Agregá tu personaje favorito completando las opciones.
+                </p>
+            </div>
+            <form action="#" method="post">
+
+                <!--- Columna Izquierda --->
+                <div class="form-display">
+                    <div class="col-left">
+                        <div class="form-style">
+                            <label class="label-style" for="nombre">*Nombre</label>
+                            <input class="input-style" type="text" name="nombre" id="nombre">
+                        </div>
+                        <div class="form-style">
+                            <label class="label-style" for="fecha">Fecha</label>
+                            <input class="input-style" type="date" name="fecha" id="fecha">
+                        </div>
+                        <div class="form-style">
+                            <textarea name="descripcion" rows="10" cols="50" placeholder="Descripción"></textarea>
+                        </div>
+                    </div>
+
+
+                    <!--- Columna derecha --->
+
+                    <div class="col-right">
+                        <div class="form-style">
+                            <label class="label-style" for="especie">*Especie</label>
+                            <select class="input-style" name="especie" id="especie">
+                                <option value="humano">Humano</option>
+                                <option value="marciano">Marciano</option>
+                                <option value="reptiliano">Reptiliano</option>
+                                <option value="mueble o algo">Mueble o algo</option>
+                                <option value="otro">Otro</option>
+                            </select>
+                        </div>
+                        <div class="form-style agregar-foto">
+                            <label class="label-style" for="foto">Agregar Foto</label>
+                            <input class="input-style" type="file" accept=".png,.jpg,.jpeg,.svg">
+                        </div>
+                        <div class="form-style">
+                            <legend class="label-style">Poderes</legend>
+                            <label class="poderes" for="Volar"> <input type="checkbox" id="volar" name="poderes">
+                                Volar</label>
+                            <label class="poderes" for="superinteligencia"><input type="checkbox" id="superinteligencia"
+                                    name="poderes">
+                                Super Inteligencia</label>
+                            <label class="poderes" for="vistalaser"><input type="checkbox" id="vistalaser"
+                                    name="poderes">
+                                Vista de rayo láser</label>
+                            <label class="poderes" for="billeteragorda"><input type="checkbox" id="billeteragorda"
+                                    name="poderes">
+                                Billetera gorda</label>
+                            <hr>
+                        </div>
+
+                        <div class="form-style">
+                            <legend class="label-style">Tipo de personaje</legend>
+                            <label class="personajes" for="personaje1"><input type="radio" id="personaje1"
+                                    name="personaje">
+                                Héroe / Heroina</label>
+                            <label class="personajes" for="personaje2"><input type="radio" id="personaje2"
+                                    name="personaje"> Villano /
+                                Villana</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="submit-center">
+                    <input class="form-submit" type="submit" value="Añadir">
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p class="footer-info">Todos los derechos reservados a FRONT END 1</p>
+    </footer>
+</body>
+
+</html>
+
+<!-- 
+
+-->
